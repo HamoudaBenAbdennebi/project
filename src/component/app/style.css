@@ -1,0 +1,307 @@
+@import url("https://fonts.googleapis.com/css2?family=Audiowide&display=swap");
+.header {
+  display: flex;
+  height: 5vh;
+  min-height: 30px;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 30px 0 30px;
+  background-color: #323232;
+}
+::placeholder {
+  color: #a8a6a6;
+}
+.serversBar {
+  background-color: #323232;
+  height: 95vh;
+  width: 2%;
+  min-width: 30px;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+  transition: 0.4s;
+  text-decoration: none;
+  color: white;
+}
+.serversBar:hover p {
+  color: black;
+}
+.serversBar:hover {
+  background-color: white;
+}
+.chatBody {
+  background-color: #4d4d4d;
+  width: 100%;
+  height: 95vh;
+}
+.secPart {
+  display: flex;
+}
+.chatBox {
+  width: 11vw;
+  background-color: #414141;
+  min-width: 180px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+.members {
+  width: 11vw;
+  min-width: 180px;
+  background-color: #414141;
+}
+.bottomUserSettings {
+  background-color: #292929;
+  width: 100%;
+  height: 100px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+}
+.bottomUserSettings a {
+  width: 100%;
+  height: 30%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: white;
+  color: black;
+  transition: 0.2s;
+}
+.bottomUserSettings a:hover {
+  color: white;
+  background-color: #1a1a1a;
+}
+.profileSection {
+  display: flex;
+  justify-content: flex-start;
+  width: 100%;
+  align-items: center;
+  height: 70%;
+}
+.profileSection img {
+  padding: 0 20px 0 20px;
+}
+.servName {
+  display: flex;
+  justify-content: flex-start;
+  padding: 0 0 0 15px;
+  align-items: center;
+  height: 40px;
+  box-shadow: 0 1px 0 0 rgba(43, 43, 43, 0.856);
+}
+.chanelDesc {
+  display: flex;
+  justify-content: flex-start;
+  padding: 0 0 0 15px;
+  align-items: center;
+  height: 40px;
+  box-shadow: 0 1px 0 0 rgba(43, 43, 43, 0.856);
+}
+.onlineMembers {
+  display: flex;
+  justify-content: flex-start;
+  padding: 0 0 0 15px;
+  align-items: center;
+  height: 40px;
+  box-shadow: 0 1px 0 0 rgba(43, 43, 43, 0.856);
+}
+.rooms {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+}
+.rooms * {
+  width: 100%;
+  height: 30px;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  padding: 0 0 0 15px;
+  transition: 0.1s;
+}
+.rooms *:hover {
+  background-color: #232323;
+}
+.memberCard {
+  width: 100%;
+  height: 50px;
+  border-bottom: 2px solid white;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  transition: 0.2s;
+}
+.memberCard:hover {
+  background-color: #292929;
+}
+.memberCard img {
+  width: 35px;
+  height: 35px;
+  border-radius: 50%;
+  margin: 0 0 0 4px;
+}
+.memberCard p {
+  font-size: 14px;
+  margin: 0 0 0 4px;
+}
+.chatBody {
+  display: flex;
+  justify-content: space-between;
+  flex-direction: column;
+  align-items: center;
+}
+.msg {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 50px;
+}
+.msg input {
+  height: 60%;
+  width: 90%;
+  border: none;
+  background-color: #2f2f2f;
+  color: white;
+  padding: 0 0 0 15px;
+}
+.msg button {
+  height: 60%;
+  background-color: #2f2f2f;
+  color: white;
+  border: none;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 16px;
+  transition: 0.3s;
+  padding: 0 15px 0 15px;
+}
+.msg button:hover {
+  background-color: white;
+  color: black;
+}
+.ok {
+  display: none;
+}
+.link {
+  text-decoration: none;
+  color: white;
+}
+.seversSelection {
+  background-color: rgb(29, 29, 29);
+  height: 100vh;
+  color: rgb(209, 209, 209);
+}
+.seversSelection h4 {
+  font-size: 40px;
+  margin-bottom: 50px;
+  font-family: "Audiowide", cursive;
+}
+.servCard {
+  width: 250px;
+  border: 2px solid white;
+  transition: 0.4s;
+}
+.servCard img {
+  width: 100%;
+}
+.servCard div {
+  padding: 2%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  transition: 0.4s;
+}
+.servCard:hover div {
+  background-color: white;
+  color: black;
+}
+.roomsPage {
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+}
+.roomsPage * {
+  width: 100%;
+  text-align: center;
+  height: 25%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #222;
+  transition: 0.4s;
+}
+.roomsPage *:hover {
+  background-color: white;
+  color: black;
+}
+.chanelsLayout {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  width: 2%;
+  min-width: 30px;
+  background-color: #111;
+}
+.chanelsLayout {
+  color: white;
+  text-decoration: none;
+  transition: 0.2s;
+}
+.chanelsLayout:hover {
+  background-color: rgb(214, 214, 214);
+  color: black;
+}
+@media screen and (max-width: 1024px) {
+  .chatBox {
+    display: none;
+  }
+  .members {
+    display: none;
+  }
+  .chanelsLayout {
+    display: flex;
+  }
+  .chanelDesc {
+    width: 90%;
+  }
+}
+@media screen and (min-width: 1024px) {
+  .chatBox {
+    display: flex;
+  }
+  .chanelsLayout {
+    display: none;
+  }
+  .chanelDesc {
+    width: 100%;
+  }
+  .members {
+    display: block;
+  }
+}
+@media screen and (max-width: 500px) {
+  .smallMenu {
+    display: block;
+  }
+  .bigMenu {
+    display: none;
+  }
+}
+@media screen and (min-width: 500px) {
+  .smallMenu {
+    display: none;
+  }
+  .bigMenu {
+    display: block;
+  }
+}
